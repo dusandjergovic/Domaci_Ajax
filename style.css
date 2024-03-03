@@ -1,0 +1,33 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+section div {
+    border: 1px solid;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+section div:hover {
+    scale: 1.1
+}
+
+section div span {
+    font-weight: bold;
+}
+
+section div img {
+    border: 1px solid;
+    border-radius: .5rem;
+}
